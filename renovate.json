@@ -1,7 +1,5 @@
 {
-  "extends": [
-    "config:base"  
-  ],
+  "extends": ["config:base"],
   "packageRules": [
     {
       "depTypeList": ["devDependencies"],
@@ -9,7 +7,7 @@
     },
     {
       "depTypeList": ["dependencies"],
-      "automerge": false  
+      "automerge": false
     }
   ],
 
@@ -19,5 +17,5 @@
   "baseBranches": ["main"],
 
   "platform": "github",
-  "repo": "username/repo" 
+  "repo": "username/repo"
 }
