@@ -1,14 +1,14 @@
-"use client";
-import SearchBar from "@/src/components/SearchBar";
+'use client'
+import SearchBar from '@/src/components/SearchBar'
 
-const handleSearch = (query: any) => {};
+const handleSearch = (query: any) => {}
 
 export default function Home() {
   return (
     <main data-testid="main">
       <h1
         data-testid="header"
-        className="text-black font-montserrat text-2xl font-bold leading-normal ml-[30px] md:ml-[149px] mt-10"
+        className="font-montserrat ml-[30px] mt-10 text-2xl font-bold leading-normal text-black md:ml-[149px]"
       >
         Your Personal Staking Calculator
       </h1>
@@ -17,5 +17,5 @@ export default function Home() {
         onSearch={handleSearch}
       />
     </main>
-  );
+  )
 }
