@@ -1,7 +1,7 @@
 name: CI
 on:
   push:
-    branches:    
+    branches:
       - main
 jobs:
   lint:
@@ -26,7 +26,7 @@ jobs:
       - run: npm run format
 
   test:
-    needs: format  
+    needs: format
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
